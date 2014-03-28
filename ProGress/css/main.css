@@ -24,3 +24,6 @@
 	background-image: url(../map.png);
 	background-size:cover;
 }
+article {
+	overflow:hidden;
+}
