@@ -21,6 +21,6 @@
 }
 
 #main {
-	background-image: url(/map.PNG);
+	background-image: url(../map.png);
 	background-size:cover;
 }
