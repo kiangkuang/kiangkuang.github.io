@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="msapplication-tap-highlight" content="no">
+
+	<title>CS3240 Mobile Prototyping</title>
+
+	<link rel="stylesheet" href="css/chui-ios-3.5.2.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<nav class='current'>
+		<h1>ProGress</h1>
+	</nav>
+	<article id='main' class='current'>
+		<section>
+		</section>
+	</article>
+	<div class="toolbar current">
+		<a class='button'><img src="location.png"></a>
+		<a class='button' id='alarm-view'><img src="clock2.png"></a>
+	</div>
+	
+	<nav class='next'>
+    	<h1>Alarm Settings</h1>
+	</nav>
+	<article id="alarm-stops" class="next">
+		<section>
+			<div class='horizontal centered'>
+				<div class='segmented'>
+					<a class='button'>Stops</a>
+					<a class='button'>Distance</a>
+				</div>
+			</div>
+			<div id="toggle-panels">
+				<div>
+					<ul class='list'>
+						<li class='comp'>
+							<div><h3>Alarm</h3></div>
+							<aside>
+								<span class="switch off" id="alarmSwitch1">
+									<input type="checkbox" value="Reminder1 On" name="alarmSwitch1">
+								</span>
+							</aside>
+						</li>
+						<li id="stopslist">
+							<h3>Number of stops before destination to alert:</h3>
+								<span class='stepper' id="stops"></span>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul class='list'>
+						<li class='comp'>
+							<div><h3>Alarm</h3></div>
+							<aside>
+								<span class="switch off" id="alarmSwitch2">
+									<input type="checkbox" value="Reminder2 On" name="alarmSwitch2">
+								</span>
+							</aside>
+						</li>
+						<li id="distlist">
+							<div>
+								<label>Distance from destination to alert: <span id='rangeValue1'></span></label>
+								<input type="range" id="rangeControl1" value="100" min="20" max="1000">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div> 
+			<ul class="list">
+				<li id="sound"><h3>Customize Alarm</h3></li>
+				<li id="openPopup"><h3>Test Alarm</h3></li>
+			</ul>
+    	</section>
+	</article>
+	<div class="toolbar next">
+		<a class='button' id='map-view'><img src="location2.png"></a>
+		<a class='button'><img src="clock.png"></a>
+	</div>
+	
+	<nav class='next'>
+		<a class='button back'>Back</a>
+		<h1>Customize Alarm</h1>
+	</nav>
+	<article id='customize' class='next'>
+		<section>
+			<ul class="list">
+				<li class='comp'>
+					<div id="setringtone">
+						<h3>Sound</h3>
+						<h4 id="select-response">Default Ringtone</h4>
+					</div>
+					<aside>
+						<span class="switch on" id="soundSwitch">
+							<input type="checkbox" value="Sound On" name="soundSwitch">
+						</span>
+					</aside>
+				</li>
+				<li class='comp'>
+					<div><h3>Vibration</h3></div>
+					<aside>
+						<span class="switch on" id="vibrateSwitch">
+							<input type="checkbox" value="Vibrate On" name="VibrateSwitch">
+						</span>
+					</aside>
+				</li>
+				
+			</ul>
+		</section>
+	</article>
+	
+	<nav class='next'>
+		<a class='button back'>Back</a>
+		<h1>Select Ringtone</h1>
+	</nav>
+	<article id='ringtone' class='next'>
+		<section>
+			<ul class='list select'>
+				<li class='selected'>
+					<h3>Default Ringtone</h3>
+				</li>
+				<li>
+					<h3>Ringtone 1</h3>
+				</li>
+				<li>
+					<h3>Ringtone 2</h3>
+				</li>
+				<li>
+					<h3>Ringtone 3</h3>
+				</li>
+			</ul>
+		</section>
+	</article>
+	
+	<script src="js/jquery-2.0.3.js"></script>
+	<script src="js/chui-3.5.2.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

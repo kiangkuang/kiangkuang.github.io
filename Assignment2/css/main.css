@@ -1,0 +1,26 @@
+.list input {
+	width: 100%;
+}
+.list textarea {
+	width: 100%;
+	font-size: 16px;
+}
+
+.toolbar > .button {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stepper > .button {
+	padding: 4px;
+}
+.toolbar > .button > img {
+	padding-top: 5px;
+	height: 40px;
+	width: auto;
+}
+
+#main {
+	background-image: url(/map.PNG);
+	background-size:cover;
+}
