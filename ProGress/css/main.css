@@ -20,6 +20,10 @@
 	width: auto;
 }
 
+.toolbar {
+	height: 60px;
+}
+
 #main {
 	background-image: url(../map.png);
 	background-size:cover;
