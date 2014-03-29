@@ -75,4 +75,23 @@ $(function() {
 		});
 	});
 
+	$('#soundSwitch').on('singletap swipeleft swiperight', function() {
+		if (this.classList.contains('on')) {
+			$('#select-response').fadeToggle();
+		} else {
+			$('#select-response').fadeToggle();
+		}
+	}); 
+	
+	$('#save').on("singletap", function(e) {
+		e.preventDefault();
+		$.UIPopup({empty: true}); // display an empty popup component
+		// select the popup component and add Busy indicator
+		$('.popup').UIBusy()
+		// close popup after 5s
+		setTimeout(function() {
+			$('.popup').UIPopupClose();
+			$.UIGoToArticle("#main");
+		},1000);
+	});
 });

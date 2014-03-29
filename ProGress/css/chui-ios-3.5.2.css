@@ -306,8 +306,8 @@ a.button.backTo::before {
   top: 2px;
 }
 a.button.action {
-  color: #585d63;
-  border: solid 1px #585d63;
+  color: #ffffff;
+  border: solid 1px #ffffff;
   border-radius: 20px;
   display: block;
   margin: 0 auto;
@@ -318,6 +318,7 @@ a.button.action {
   width: auto;
   min-width: 200px;
   max-width: 300px;
+  background-color: #6ee102;
 }
 nav > a.button {
   max-width: 100px;
