@@ -170,7 +170,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     color: #1978ff;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, cursive;
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -717,7 +718,7 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    margin: 0px 20px;
+    margin: 10px 20px;
     background-color: #fff;
     height: 60px;
     width: 60px;
