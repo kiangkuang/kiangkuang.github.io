@@ -845,5 +845,13 @@ body {
 }
 
 .box-shadow {
-	box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 5px #ddd;
+}
+
+#photo {
+    margin: 20px 0px;
+}
+
+section#about {
+	background-color: #eee;
 }
