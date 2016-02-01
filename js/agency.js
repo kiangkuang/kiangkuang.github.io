@@ -25,8 +25,25 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+var fancyBoxOpened = false;
+
 $(document).keyup(function(e) {
   if (e.keyCode == 27) {
-  	$('.modal').modal('hide');
+    if (fancyBoxOpened) {
+      $.fancybox.close();
+    } else {
+    	$('.modal').modal('hide');
+    }
   }
+});
+
+$(document).ready(function() {
+  $('.fancybox').fancybox({
+    beforeLoad: function() {
+      fancyBoxOpened = true;
+    },
+    afterClose: function() {
+      fancyBoxOpened = false;
+    }
+  });
 });
