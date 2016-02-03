@@ -10,7 +10,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 1500, 'easeInOutQuart');
         event.preventDefault();
     });
 });
@@ -44,6 +44,11 @@ $(document).ready(function() {
     },
     afterClose: function() {
       fancyBoxOpened = false;
+    },
+    helpers: {
+      title: {
+        type: 'inside'
+      }
     }
   });
 });
