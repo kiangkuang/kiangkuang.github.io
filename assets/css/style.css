@@ -1,8 +1,7 @@
 body {
     text-rendering: optimizelegibility;
-    background: #d5dee7;
+    background: #f1f1f1;
     font-family: Roboto, sans-serif;
-    overflow: hidden
 }
 
 .h1,
@@ -251,9 +250,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     background: 0 0;
     color: #ef6348
@@ -271,9 +268,7 @@ a:focus {
     color: #FFC107
 }
 
-.main-menu.floating-menu .navbar-nav>.active>a,
-.main-menu.floating-menu .navbar-nav>.active>a:focus,
-.main-menu.floating-menu .navbar-nav>li>a:focus {
+.main-menu.floating-menu .navbar-nav>.active>a {
     background: 0 0;
     color: #FFC107
 }
@@ -324,18 +319,22 @@ a:focus {
     margin-top: 280px
 }
 
+#about, #skills {
+    background-color: #d5dee7;
+}
+
 #about .sectionIcon {
     background: 0 0;
     top: -66px;
     font-size: 66px;
 }
 
-#about .sectionIcon a{
+#about .sectionIcon a {
     color: #fff;
 }
 
 #about img {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 section h2.heading {
@@ -361,7 +360,7 @@ section p {
 
 section {
     position: relative;
-    padding: 120px 0 50px;
+    padding: 120px 0px;
     text-align: center
 }
 
@@ -382,10 +381,6 @@ section {
 .bgParallax h2.heading {
     color: #fff;
     margin-bottom: 25px
-}
-
-#mywork {
-    background: #fff
 }
 
 .portfolio-grid .thumbnail {
@@ -450,8 +445,8 @@ section {
 }
 
 .social li a .mdicon {
-    font-size: 48px;
-    line-height: 48px
+    font-size: 72px;
+    line-height: 72px
 }
 
 .social li a:hover {
@@ -482,15 +477,11 @@ section {
 #contact {
     background: #343434;
     color: #fff;
-    padding-bottom: 120px;
+    padding: 200px 0px;
 }
 
-#contact h4 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 26px;
+#contact h2 {
     color: #fff;
-    font-weight: 300
 }
 
 #contact li {
@@ -511,13 +502,13 @@ footer .design-by {
     text-align: right
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
     .container {
         width: 970px
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .portfolio-grid .thumbnail img {
         height: 228px
     }
@@ -539,14 +530,14 @@ footer .design-by {
     }
 }
 
-@media (max-width:640px) {
+@media (max-width: 640px) {
     .portfolio-grid .hover-text {
         padding-top: 70px;
         left: 139px!important
     }
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
     .navbar-default .navbar-toggle {
         border: none
     }
@@ -597,7 +588,7 @@ footer .design-by {
     }
 }
 
-@media (max-width:340px) {
+@media (max-width: 340px) {
     .navbar-default .navbar-brand img {
         width: 180px
     }
@@ -630,4 +621,12 @@ footer .design-by {
         height: 206px!important;
         width: 100%!important
     }
+}
+
+.box-shadow {
+    box-shadow: 0 0 5px #ddd;
+}
+
+.margin-bottom-1 {
+    margin-bottom: 10px;
 }

@@ -25,7 +25,7 @@
 			$this.replaceWith($wrap);
 			$target.hide();
 
-			$wrap.css({ 'position':'relative', 'overflow':'hidden', display: 'block', padding:'2px' });
+			$wrap.css({ 'position':'relative', display: 'block', padding:'2px' });
 
 			if (opts.find_image && $this.not('img'))
 			{
