@@ -1,55 +1,39 @@
 - name:
-    detail: Nextcode
-    i18n: nextcode
+    detail: Titansoft Pte Ltd
   desc:
-    detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
-    i18n: nextcode_des
+    detail: Develop web applications in C#.
   date:
-    detail: Apr. 2016
-    i18n: nextcode_date
+    detail: July 2016 - Present
   job:
-    detail: Python Developer
-    i18n: nextcode_job
-  icon: fa-plus-square
-
-- name:
-    detail: Netease Game
-    i18n: netease
-  desc:
-    detail: In Netease game, I learned game service system and use Python code for ops.
-    i18n: netease_des
-  date:
-    detail: Jun. 2015
-    i18n: nextcode_date
-  job:
-    detail: Dev Ops
-    i18n: netease_job
+    detail: Product Developer
   icon: fa-gamepad
 
 - name:
-    detail: Ucloud
-    i18n: ucloud
+    detail: National University of Singapore
   desc:
-    detail: In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.
-    i18n: ucloud_des
+    detail: Graduated from NUS with Bachelor of Computing (Honours) in Computer Science, Interactive Media
   date:
-    detail: Sep. 2013
-    i18n: ucloud_date
-  job:
-    detail: Dev Ops
-    i18n: ucloud_job
-  icon: fa-cloud
-
-- name:
-    detail: Graduation
-    i18n: college
-  desc:
-    detail: At July 2013,I graduated from college and started my IT technology tour.
-    i18n: college_des
-  date:
-    detail: Jul. 2013
-    i18n: college_date
+    detail: Aug 2012 - July 2016
   job:
     detail: Student
-    i18n: college_job
-  icon: fa-book
+  icon: fa-graduation-cap
+
+- name:
+    detail: ShopBack
+  desc:
+    detail: Worked on front-end and back-end implementation of new features focused towards regional expansion and scalability using PHP.
+  date:
+    detail: May 2015 - October 2015
+  job:
+    detail: Web Developer
+  icon: fa-shopping-bag
+
+- name:
+    detail: Animagine Pte Ltd
+  desc:
+    detail: Developed prototype web based drawing and animation application using Silverlight and C#.
+  date:
+    detail: May 2014 - July 2014
+  job:
+    detail: Software Engineer
+  icon: fa-pencil-square

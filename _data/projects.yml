@@ -1,28 +1,55 @@
-- name: 'Saplatform'
-  i18n: 'saplatform'
-  url: '/JiaKunUp/saplatform'
-  img: 'static/img/landing/saplatform.png'
-  desc: 'Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.'
+- name: 'WhoPick'
+  git: '/kiangkuang/WhoPick'
+  url: 'https://telegram.me/WhoPickBot'
+  img: 'static/img/projects/whopick.png'
+  desc: 'Polling bot for Telegram that supports listing of voters and multiple selection to simplify trend of "copy, paste, append name in list" in messaging applications.'
 
-- name: 'Jalpc'
-  i18n: 'jalpc'
-  url: '/JiaKunUp/jalpc_jekyll_theme'
-  img: 'static/img/landing/jekyll.png'
-  desc: "Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices."
+- name: 'JunKing'
+  git: '/wongherlung/teampikachu'
+  url: 'https://github.com/wongherlung/teampikachu'
+  img: 'static/img/projects/junking.png'
+  desc: '
+  Gamification of recycing, using makeshift iPhone app as a motion sensor and a website for recycling leaderboard and data analyst dashboard.<br><br>
+  Project created during Hackfest 2016.<br>
+  Won Most Minimum Viable Product Award.
+  '
 
-- name: 'Jalpc-A'
-  i18n: 'angularjs'
-  url: '/JiaKunUp/Jalpc-A'
-  img: 'static/img/landing/angularjs.png'
-  desc: "It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well."
+- name: 'ProGress'
+  git: '/kiangkuang/ProGress'
+  url: 'https://github.com/kiangkuang/ProGress'
+  img: 'static/img/projects/progress.png'
+  desc: 'Location based alarm Android app.'
 
-- name: 'Rsser'
-  i18n: 'rsser'
-  url: '/JiaKunUp/Rsser'
-  img: 'static/img/landing/rsser.png'
-  desc: Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.
+- name: 'WhoPay'
+  git: '/kiangkuang/WhoPay'
+  url: 'https://whopay.herokuapp.com/'
+  img: 'static/img/projects/whopay.png'
+  desc: '
+  Collaborative bill splitting web app with OCR receipt scanning.<br><br>
+  Project created during Hack&Roll 2016.
+  '
 
-- name: 'FamilyCODE Wchat'
-  i18n: 'familycode'
-  img: 'static/img/landing/familycode.png'
-  desc: This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.
+- name: 'Sheares Intranet'
+  url: 'http://shearesintranet.nus.edu.sg/'
+  img: 'static/img/projects/shearesintranet.png'
+  desc: 'Web portal for all hall residents to streamline perform committee allocation processes and to check their hall points for their hall contributions.'
+
+- name: 'Animal Revolt!'
+  git: '/jiajieyong/Animal-Revolt'
+  url: 'http://jiajieyong.github.io/Animal-Revolt/'
+  img: 'static/img/projects/animalrevolt.jpg'
+  desc: '
+  3D FPS/TPS game created using Unity.<br><br>
+  Won 3rd for 6th STePS, CS3247 Category.
+  '
+
+- name: 'NUS Inter-Hall Games 14/15'
+  url: 'http://ihg1415.gear.host/'
+  img: 'static/img/projects/ihg.png'
+  desc: 'Website for all students to get the latest updates on the scores and schedules of the NUS Inter-Hall Games 14/15.'
+
+- name: 'Gently'
+  git: '/oswellchan/Gently'
+  url: 'https://github.com/oswellchan/Gently'
+  img: 'static/img/projects/gently.png'
+  desc: 'Real-time game streaming service with server load balancing.'
